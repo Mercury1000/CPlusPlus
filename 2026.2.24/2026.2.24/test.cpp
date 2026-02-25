@@ -77,13 +77,21 @@ int main()
 
 	// new/delete 和 malloc/free最大区别是 new/delete对于【自定义类型】除了开空间还会调用构造函数和析构函数
 	
-	C* p1 = new C(2);// 注意：如果构造函数有参数时，此处需要传参，缺省可不传
+	C* p1 = new C(2);
 	C* p2 = new C[5]{ 1,2,3,4,5 };
 	
 	delete p1;
 	delete[] p2;
 	//当使用new[]时,如果含自定义类型的话,编译器开辟数组一般会在内存块前多开辟一个整型空间记录数组长度(或其他,需根据编译器)
 	//如果不加[],delete就不会释放此空间,造成内存泄漏
+
+	//模拟new
+	C* pf = (C*)operator new(sizeof(C));//operator new只开辟空间,不初始化
+	new(pf)C(1);//定位new显式调用构造函数 注意：如果构造函数有参数时，此处需要传参，缺省可不传
+	
+	//模拟delete
+	pf->~C();//析构函数可直接显式调用
+	operator delete(pf);
 
 	return 0;
 }

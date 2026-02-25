@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mercury\\Documents\\Gitee\\2026.2.24\\",
+  "WorkspaceRootPath": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\2026.2.24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47B74CD5-EF6F-45F4-9A29-C4F9E9AF58F9}|2026.2.24\\2026.2.24.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\2026.2.24\\2026.2.24\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47B74CD5-EF6F-45F4-9A29-C4F9E9AF58F9}|2026.2.24\\2026.2.24.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\2026.2.24\\2026.2.24\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47B74CD5-EF6F-45F4-9A29-C4F9E9AF58F9}|2026.2.24\\2026.2.24.vcxproj|solutionrelative:2026.2.24\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test.cpp",
-              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\2026.2.24\\2026.2.24\\test.cpp",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\2026.2.24\\2026.2.24\\test.cpp",
               "RelativeDocumentMoniker": "2026.2.24\\test.cpp",
-              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\2026.2.24\\2026.2.24\\test.cpp",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\2026.2.24\\2026.2.24\\test.cpp",
               "RelativeToolTip": "2026.2.24\\test.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
