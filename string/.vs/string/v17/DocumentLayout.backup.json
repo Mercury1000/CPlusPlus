@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\string\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D241BC61-E892-48B8-A8F2-1A2A7149BF05}|string\\string.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\string\\string\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D241BC61-E892-48B8-A8F2-1A2A7149BF05}|string\\string.vcxproj|solutionrelative:string\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\string\\string\\test.cpp",
+              "RelativeDocumentMoniker": "string\\test.cpp",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\string\\string\\test.cpp",
+              "RelativeToolTip": "string\\test.cpp",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T07:23:29.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
