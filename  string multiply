@@ -10,7 +10,7 @@ string addStrings(string num1, string num2)
         int val2=begin2>=0?num2[begin2--]-'0':0;
         int sum=val1+val2+next;
         next=sum/10;
-        ret+=(sum%10+'0');//全部尾插最后在倒置，提高效率
+        ret+=(sum%10+'0');//全部尾插最后再倒置，提高效率
 
      }
      if(next==1)
