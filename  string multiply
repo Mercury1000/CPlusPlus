@@ -1,0 +1,55 @@
+class Solution {
+public:
+string addStrings(string num1, string num2) 
+    {
+     int begin1=num1.size()-1,begin2=num2.size()-1,next=0;
+     string ret;
+     while(begin1>=0||begin2>=0)
+     {
+        int val1=begin1>=0?num1[begin1--]-'0':0;
+        int val2=begin2>=0?num2[begin2--]-'0':0;
+        int sum=val1+val2+next;
+        next=sum/10;
+        ret+=(sum%10+'0');//全部尾插最后在倒置，提高效率
+
+     }
+     if(next==1)
+     ret+='1';
+     
+     reverse(ret.begin(),ret.end());
+return ret;
+    }
+    string multiply(string num1, string num2)
+    {
+    int next=0,begin1=num1.size()-1,begin2=num2.size()-1;int rank=0;
+    string s2="0";
+    if (num1 == "0" || num2 == "0") return "0";
+    while(begin1>=0)
+    {
+        string s1;
+        int val1=num1[begin1--]-'0';
+        begin2=num2.size()-1;
+    while(begin2>=0)
+    {
+    int val2=num2[begin2--]-'0';
+    int sum=val1*val2+next;
+    next=sum/10;
+    s1+=(sum%10+'0');
+    }
+    if(next)
+    {
+        s1+=(next+'0');
+        next=0;
+    }
+    reverse(s1.begin(),s1.end());
+    int n=rank++; 
+    while(n--)
+    {
+    s1+='0';
+    }
+    s2=addStrings(s1,s2);  
+    }
+return s2;
+    }
+
+};
