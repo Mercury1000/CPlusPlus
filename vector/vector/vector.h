@@ -109,6 +109,11 @@ namespace Mercury
 			assert(i < size());
 			return _start[i];
 		}
+		const T& operator[](size_t i) const//Ö»¶Á
+		{
+			assert(i < size());
+			return _start[i];
+		}
 		void swap(vector<T>& v)
 		{
 			std::swap(_start, v._start);
