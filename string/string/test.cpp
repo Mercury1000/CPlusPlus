@@ -115,6 +115,11 @@ int main()
 	string sub = s1.substr(6);//子串创建,指定开始位置和长度
 	cout << sub << endl;
 
+	string s7;
+	//std::swap(s7,s6)全局swap三次深拷贝，效率低下,但使用它还是会自动调用成员函数，所以两种是一样的
+	s7.swap(s6);//深拷贝
+
+
 	return 0;
 
 }
