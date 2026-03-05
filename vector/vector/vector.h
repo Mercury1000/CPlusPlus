@@ -59,18 +59,24 @@ namespace Mercury
 		{
 			_finish = _start;
 		}
+		//传统写法
+		//vector<T>& operator=(const vector<T>& v)
+		//{
+		//	if (*this!=v)
+		//	{
+		//		clear();
+		//		reserve(v.size());//提前开好空间，提高效率
+		//		for (auto& e : v)//遇到传值调用就用引用
+		//		{
+		//			push_back(e);
+		//		}
+		//	}
+		//	return *this;
+		//}
 
-		vector<T>& operator=(const vector<T>& v)
+		//现代写法
+		vector<T>& operator=(vector<T> v)//注意是传值传参,拷贝构造到临时对象,再狸猫换太子,把临时对象所有东西抢走,然后让他去似
 		{
-			//if (*this!=v)
-			//{
-			//	clear();
-			//	reserve(v.size());//提前开好空间，提高效率
-			//	for (auto& e : v)//遇到传值调用就用引用
-			//	{
-			//		push_back(e);
-			//	}
-			//}
 			swap(v);
 			return *this;
 		}
@@ -140,7 +146,7 @@ namespace Mercury
 
 		}
 
-		void resize(size_t n,const T& val=T())
+		void resize(size_t n,const T& val=T())//缺省值给匿名对象调用默认构造初始化
 		{
 			if (n < size())
 			{
