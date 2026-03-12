@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D38D0857-8D2A-4202-B02A-44A86BB40A78}|Template_2\\Template_2.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D38D0857-8D2A-4202-B02A-44A86BB40A78}|Template_2\\Template_2.vcxproj|solutionrelative:Template_2\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D38D0857-8D2A-4202-B02A-44A86BB40A78}|Template_2\\Template_2.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D38D0857-8D2A-4202-B02A-44A86BB40A78}|Template_2\\Template_2.vcxproj|solutionrelative:Template_2\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PriorityQueue.h",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\PriorityQueue.h",
+              "RelativeDocumentMoniker": "Template_2\\PriorityQueue.h",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\PriorityQueue.h",
+              "RelativeToolTip": "Template_2\\PriorityQueue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-11T15:16:47.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\test.cpp",
+              "RelativeDocumentMoniker": "Template_2\\test.cpp",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\test.cpp",
+              "RelativeToolTip": "Template_2\\test.cpp",
+              "ViewState": "AgIAAGkAAAAAAAAAAIAwwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-11T15:08:28.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

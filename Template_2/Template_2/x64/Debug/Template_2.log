@@ -1,0 +1,17 @@
+﻿  test.cpp
+C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\Template_2\PriorityQueue.h(89,25): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“test.cpp”)
+      C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\Template_2\PriorityQueue.h(89,25):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\Template_2\test.cpp(93,57):
+          查看对正在编译的 类 模板 实例化“Mercury::priority_queue<int *,std::vector<int *,std::allocator<int *>>,Less<int*>>”的引用
+          C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\Template_2\PriorityQueue.h(86,8):
+          在编译 类 模板 成员函数“void Mercury::priority_queue<int *,std::vector<int *,std::allocator<int *>>,Less<int*>>::push(const T &)”时
+          with
+          [
+              T=int *
+          ]
+              C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\Template_2\test.cpp(94,10):
+              请参阅 "test1" 中对 "Mercury::priority_queue<int *,std::vector<int *,std::allocator<int *>>,Less<int*>>::push" 的第一个引用
+  
+  Template_2.vcxproj -> C:\Users\Mercury\Documents\Gitee\Cplusplus\Template_2\x64\Debug\Template_2.exe
