@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,10 +35,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
@@ -61,7 +57,7 @@
               "RelativeDocumentMoniker": "Template_2\\test.cpp",
               "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\Template_2\\Template_2\\test.cpp",
               "RelativeToolTip": "Template_2\\test.cpp",
-              "ViewState": "AgIAAGkAAAAAAAAAAIAwwHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAAAL0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-11T15:08:28.953Z",
               "EditorCaption": ""
