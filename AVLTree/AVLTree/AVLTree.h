@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #include<iostream>
 #include<assert.h>
 using namespace std;
@@ -72,7 +71,7 @@ public:
 	void RotateL(Node* parent)
 	{
 		Node* subR = parent->_right;
-		Node* subRL = parent->_left;
+		Node* subRL = subR->_left;
 
 		parent->_right = subRL;
 		if (subRL)
@@ -107,8 +106,8 @@ public:
 
 	void RotateLR(Node* parent)
 	{
-		Node* subL = parent->_right;
-		Node* subLR = parent->_left;
+		Node* subL = parent->_left;
+		Node* subLR = subL->_right;
 		int bf = subLR->_bf;
 
 		RotateL(subL);
@@ -138,11 +137,11 @@ public:
 	void RotateRL(Node* parent)
 	{
 		Node* subR = parent->_right;
-		Node* subRL = parent->_left;
+		Node* subRL = subR->_left;
 		int bf = subRL->_bf;
 
-		RotateL(subRL);
-		RotateR(parent);
+		RotateR(subR);
+		RotateL(parent);
 
 		if (bf == 0)
 		{
@@ -195,7 +194,7 @@ public:
 			}
 		}
 		cur = new Node(kv);
-		if (kv.first < cur->_kv.first)
+		if (kv.first < parent->_kv.first)
 		{
 			parent->_left = cur;
 		}
@@ -286,21 +285,18 @@ private:
 		cout << root->_kv.first<<":"<<root->_kv.second<< " ";
 		_InOrder(root->_right);
 	}
+	int _isAVLTree(Node* root)
+	{
+		if (root == nullptr) return 0;
+
+		int leftH = _isAVLTree(root->_left);
+		if (leftH == -1) return -1;
+		int rightH = _isAVLTree(root->_right);
+		if (rightH == -1) return -1;
+
+		if (abs(leftH - rightH) > 1 || abs(root->_bf) > 1) return -1;
+
+		return leftH > rightH ? leftH + 1 : rightH + 1;
+	}
 	Node* _root;
 };
-
-template<class K,class V>
-int _isAVLTree(AVLNode<K,V>* root)
-{
-	if (root == nullptr) return 0;
-
-	int leftH = _isAVLTree(root->_left);
-	if (leftH == -1) return -1;
-	int rightH =_isAVLTree(root->_right);
-	if (rightH == -1) return -1;
-	
-	if (abs(leftH - rightH) > 1|| abs(root->_bf) > 1) return -1;
-	
-	return leftH > rightH ? leftH + 1 : rightH + 1;
-}
-

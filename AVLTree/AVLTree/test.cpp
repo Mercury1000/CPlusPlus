@@ -3,16 +3,20 @@
 
 int main()
 {
-	AVLTree<int,int> tr;
-	tr.insert({ 1,1 });
-	tr.insert({ 5,2 });
-	tr.insert({ 7,5 });
-	tr.insert({ 2,5 });
-	tr.insert({ 9,7 });
-	tr.insert({ 22,42 });
+	AVLTree<int,int> t;
+	// 常规的测试用例
+	int a[] = { 16, 3, 7, 11, 9, 26, 18, 14, 15 };
+	// 特殊的带有双旋场景的测试用例
+	/*int a[] = { 4, 2, 6, 1, 3, 5, 15, 7, 16, 14 };*/
 
-	tr.InOrder();
-	if (tr.isAVLTree()) cout << "yes" << endl;
+	for (auto e : a)
+	{
+		t.insert({ e, e });
+	}
+
+	t.InOrder();
+
+	if (t.isAVLTree()) cout << "yes" << endl;
 	else cout << "no" << endl;
 
 	return 0;
