@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|solutionrelative:myset\u0026mymap\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|solutionrelative:myset\u0026mymap\\RBTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Myset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|solutionrelative:myset\u0026mymap\\Myset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Mymap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF7C884C-70DA-4063-9CDB-0DE6C3BB671C}|myset\u0026mymap\\myset\u0026mymap.vcxproj|solutionrelative:myset\u0026mymap\\Mymap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RBTree.h",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\RBTree.h",
+              "RelativeDocumentMoniker": "myset\u0026mymap\\RBTree.h",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\RBTree.h*",
+              "RelativeToolTip": "myset\u0026mymap\\RBTree.h*",
+              "ViewState": "AgIAABYBAAAAAAAAAAAAAIwBAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T02:43:15.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Myset.h",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Myset.h",
+              "RelativeDocumentMoniker": "myset\u0026mymap\\Myset.h",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Myset.h*",
+              "RelativeToolTip": "myset\u0026mymap\\Myset.h*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T02:42:39.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mymap.h",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Mymap.h",
+              "RelativeDocumentMoniker": "myset\u0026mymap\\Mymap.h",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\Mymap.h*",
+              "RelativeToolTip": "myset\u0026mymap\\Mymap.h*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T02:42:27.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\test.cpp",
+              "RelativeDocumentMoniker": "myset\u0026mymap\\test.cpp",
+              "ToolTip": "C:\\Users\\Mercury\\Documents\\Gitee\\Cplusplus\\myset\u0026mymap\\myset\u0026mymap\\test.cpp",
+              "RelativeToolTip": "myset\u0026mymap\\test.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T02:42:04.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
