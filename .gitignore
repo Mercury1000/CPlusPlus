@@ -8,6 +8,8 @@
 **/*.sln
 **/*.vcxproj.user
 **/x64/
+**/*.vcxproj
+**/*.vcxproj.filters
 
 # User-specific files
 *.rsuser
